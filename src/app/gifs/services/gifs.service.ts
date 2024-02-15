@@ -16,7 +16,6 @@ export class GifsService {
     try{
       this._loadLocalStorage()
     }catch(e){
-      console.error({ERROR: e})
     }
   }
 
