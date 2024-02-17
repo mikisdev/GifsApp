@@ -14,7 +14,6 @@ export class HomePageComponent {
   }
 
   get gifs(): Gif[]{
-    console.log('1')
     return this.gifsService.gifsList
   }
 
